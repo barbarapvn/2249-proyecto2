@@ -1,0 +1,81 @@
+/*.destacado {
+	color: blue;
+	background: yellow;
+}*/
+
+/*
+no está bien estilizar a través de IDs. 
+#titulo {
+	background: pink;
+}*/
+
+/*tres reglas de CSS
+1) orden: todo lo que está abajo gana a lo que está arriba. Si está destacado arriba y le pongo un color y abajo está la misma propiedad, predomina el color que está abajo. CSS SE RIGE POR EL ORDEN.
+2) especificidad: cuando más específico soy, mayor fuera tiene el elemento. no es lo mismo poner .destacado que h1.destacado, en la segunda oportunidad estás siendo mucho más específico. hay una doble selección.
+3) importancia: si queremos que algo tenga un determinado estilo, usamos !important y eso va a ganar a lo que sea que exista.*/
+
+/*usar como máximo 2 o 3 por hoja de estilo, porque después se empiezan a pisar.*/
+
+/*tres formas de escribir COLORES
+
+1) palabra clave (green, red, etc)
+2) hexadecimal: sintaxis es #FFFFFF
+3) canales rgba: red green blue alpha (transparencias)*/ 
+
+body {
+	background-color: #D57B55;
+	font-family: 'Raleway', sans-serif;
+	/*font-size: 10px;*/
+}
+
+.destacado {
+	/*font-size: 40px;*/
+	/*forma absoluta: pixeles*/
+	/*font-size: 2em;*/
+	/*forma relativa: tomando como referencia el font size del body, pongo la cantidad de base declarándola en el body. Usar em no está relacionado con responsive, no existe un beneficio real por usar em */
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.parrafo {
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+}
+
+li .icon-size {
+	font-size: 30px;
+}
+
+li .facebook {
+	color: #3b5998;
+}
+
+li .twitter {
+	color: #55acee;
+}
+
+li .linkedin {
+	color: #007bb5;
+}
+
+header p a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+header p a:hover {
+	text-decoration: underline;
+	color: black;
+}

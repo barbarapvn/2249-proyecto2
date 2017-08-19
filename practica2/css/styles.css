@@ -1,0 +1,80 @@
+.telefe div {
+	width: 150px;
+	height: 150px;
+	background-color: #231F20;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.telefe .te {
+	background-color: #3D75CD;
+}
+
+.telefe .le {
+	background-color: #74B933;
+}
+
+.telefe .fe {
+	background-color: #A82C1E;
+}
+
+/*otra manera de resolverlo: 
+
+.te, .le, .fe {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.te {
+	background-color: #3D75CD;
+}
+
+.le {
+	background-color: #74B933;
+}
+
+.fe {
+	background-color: #A82C1E;
+}*/
+
+.encabezado {
+	color: #4190C8;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-1 {
+	color: #231F20;
+	font-family: 'Lato', sans-serif;
+}
+
+.parrafo-2 {
+	color: #D57B55;
+	font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.elemento1 {
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box; /*el tamaño final tiene que ser el que está definido en el CSS aunque estemos usando padding y borde. Se sustrae el espacio en vez de hacerlo crecer.*/
+	display: inline-block;
+}
+
+/*el padding se suma al tamaño del elemento. pero el margen no*/
+
+/*elemento de bloque: ocupa toda la pantalla aunque no sea necesario
+elemento de línea: ocupan solamente el tamaño de su contenido. no pueden tener ni alto ni ancho.*/
+

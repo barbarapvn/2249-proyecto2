@@ -1,0 +1,77 @@
+/*
+.cuadrado {
+	background: blue;
+	width: 100px;
+	height: 100px;
+	background: blue;
+	display: inline-block;
+}
+
+.relativo {
+	background: red;
+	top: 55px;
+	left: 67px;
+	position: relative;
+}
+
+.fijo {
+	background: green;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+section {
+	position: relative;
+}
+
+.absoluto {
+	background: yellow;
+	top: 0;
+	right: 0;
+	position: absolute;
+	/*absolute: respecto a su padre relativo, si no lo encuentra se va al body*/
+
+.ms div {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.c1 {
+	position: relative;
+	background-color: #FF3C00;
+}
+
+.c2 {
+	background-color: #69C200;
+}
+
+.c3 {
+	position: absolute;
+	bottom: 480px;
+	left: 8px;
+	background-color: #00A0F7;
+}
+
+.c4 {
+	position: absolute;
+	bottom: 480px;
+	left: 112px;
+	background-color: #FFBA00;
+}
+
+.flotar {
+	background: pink;
+	overflow: auto;
+}
+
+/*cuando floto elementos, se salen del padre. con más secciones, las secciones se empiezan a surponer entre si. por eso uso overflow*/
+
+.cuad {
+	background: cyan;
+	width: 100px;
+	height: 100px;
+	margin: 4px;
+	float: left;
+}
